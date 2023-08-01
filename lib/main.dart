@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import './constants/url_constants.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
-void main() => runApp(const CarouselImages());
+void main() => runApp(const FirstScreen());
 
-class CarouselImages extends StatelessWidget {
-  const CarouselImages({Key? key}) : super(key: key);
+class FirstScreen extends StatelessWidget {
+  const FirstScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -77,7 +77,7 @@ class CarouselImages extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.all(15),
                     child: Text(
-                      'Popular right now',
+                      'Popular',
                       textAlign: TextAlign.right,
                       style: TextStyle(fontSize: 30),
                     ),
@@ -113,7 +113,7 @@ class CarouselImages extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.all(15),
                     child: Text(
-                      'Late lunch near you',
+                      'Lunch near you',
                       textAlign: TextAlign.right,
                       style: TextStyle(fontSize: 30),
                     ),
